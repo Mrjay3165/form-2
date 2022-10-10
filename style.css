@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 560px;
+    box-shadow: 0px 0px 10px 2px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top{
+    width: 15%;
+    padding: 10px 0 0 10px;
+}
+.left{
+    padding: 60px 30px 20px 5px;
+    width: 50%;
+}
+
+.left h1{
+    text-align: center;
+    margin: 10px 0;
+    color: rgba(66, 168, 66, 0.784);
+}
+
+.accounts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.accounts .account{
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.acc{
+    width: 20px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.account:hover {
+    background-color: green;
+}
+
+.left p{
+    text-align: center;
+    font-size: 10px;
+    margin: 10px 0;
+    font-weight: bold;
+    color: rgb(132, 124, 124);
+}
+
+.left .inputs{
+    position: relative;
+    margin: 10px;
+    width: 222px;
+}
+
+input{
+    width: 100%;
+    padding: 5px 30px;
+    border: none;
+    background-color: rgb(237, 231, 231);
+}
+
+.left ::placeholder{
+    font-size: 10px;
+    color: rgb(193, 182, 182);
+}
+
+.icon{
+    position: absolute;
+    top: 2.5px;
+    margin: 5px 10px;
+    font-size: 10px;
+    padding-right: 5px;
+    color: rgb(90, 80, 80);
+}
+
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px;align-items: center;
+}
+
+.sign-in a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid rgb(195, 193, 193);
+}
+
+.sign-in a:hover {
+    color: green;
+}
+
+.sign-in button{
+    background-color: rgba(66, 168, 66, 0.784);
+    padding: 10px 45px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 10px;
+    color: white;
+}
+
+.sign-in button:hover {
+    background-color: green;
+}
+
+.right{
+    width: 40%;
+    padding: 100px 30px;
+    text-align: center;
+    background-color: rgba(66, 168, 66, 0.784);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right h1{
+    font-size: 22px;
+    color: white;
+}
+
+.right p{
+    font-size: 10px;
+    color: white;
+}
+
+.right a{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: 10px;
+}
+
+.right a:hover{
+    background-color: green;
+}
